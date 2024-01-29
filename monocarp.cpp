@@ -5,7 +5,7 @@ int main()
 {
     short n, k, d , i ,tmp;
     short t;
-    
+     
     i = 1; 
     std::cin >> t; 
     while (t--)
