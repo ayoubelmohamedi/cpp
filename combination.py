@@ -1,5 +1,4 @@
 
-
 def combine(n, k):
     def backtrack(start, path):
         if len(path) == k:
@@ -13,4 +12,3 @@ def combine(n, k):
         resutl = []
         backtrack(1,[])
         return res
-
