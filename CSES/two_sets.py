@@ -25,7 +25,6 @@ if (t % 2 == 0):
     while (curr != half_t):
         print("pivot + n = {}, half_t => {}".format(pivot + n, half_t))
         if (pivot + n > half_t):
-            print("hereeee")
             diff = (pivot + n) - half
             seq2.append(diff)
             half += 1
